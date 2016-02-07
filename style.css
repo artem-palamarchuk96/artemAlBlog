@@ -99,7 +99,6 @@
 	font-weight: normal;
 }
 
-
 /* ОБЩИЕ СТИЛИ */
 * {
 	margin: 0;
@@ -107,6 +106,7 @@
 }
 
 body {
+<<<<<<< HEAD
 	font-family: "GothamProBold";
 }
 
@@ -323,4 +323,78 @@ hr {
 
 .dropdown > li > a:hover {
 	background-color: #303535;
+}
+
+/*ABOUT ME*/
+
+.otsup {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.about-me{
+	margin-top: 65px;
+}
+
+.about-title {
+	text-transform: uppercase;
+	color: white;
+	font-size: 30px;
+	font-family: "GothamProLight";
+}
+
+
+.about-title hr {
+	border: solid 6px;
+	color: white;
+}
+
+.about-fon {
+	padding-top:15px;
+	padding-bottom:15px;  
+	height: 440px;
+	background: url(images/about-fon.png);
+}
+.about-fon img {
+	width: 100%;
+}
+
+
+.about-text {
+	height: 410px;
+	padding-top: 14px;
+	background: url(images/about-fon2.png);
+	font-size: 14px;
+	font-family: "GothamProLight";
+	color: white;
+	
+}
+.about-text img {
+	width: 100%;
+}
+
+.about-caption {
+	margin-left: 120px;
+	margin-right: 75px;
+	font-size: 15px;
+	color: rgb(255, 255, 255);
+	line-height: 1.643;
+}
+
+.about-caption a{
+	color: rgb(255, 157, 56);
+	text-decoration: underline;
+}
+
+.about-caption a:hover{
+	color: rgb(255, 157, 56);
+	text-decoration: none;
+}
+
+.lapki{
+	position: absolute;
+	top:130px;
+	left: 20px;
+	width: 65px !important;
+	height: 45px;
 }
