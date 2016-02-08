@@ -23,5 +23,3 @@ $('a[rel=group-2]').fancybox({
 });
 
 });
-
-

@@ -106,8 +106,7 @@
 }
 
 body {
-<<<<<<< HEAD
-	font-family: "GothamProBold";
+
 }
 
 .none {
@@ -124,7 +123,7 @@ a:hover {
 
 .main-back-ground {
 	background: url(images/bg.png) no-repeat;
-	background-position: 29% 0%;
+	background-position: 50% -75%;
 }
 
 .headline {
@@ -332,7 +331,7 @@ a:hover {
 	padding-left: 0px;
 }
 
-.about-me{
+.about-me {
 	margin-top: 0px;
 }
 
@@ -345,9 +344,12 @@ a:hover {
 
 
 .about-title hr {
-	border: solid 4px;
+/*	border: solid 4px;
 	color: white;
 	margin-bottom: 16px;
+	*/
+	border: solid 6px;
+	color: white;
 }
 
 .about-fon {
@@ -375,9 +377,14 @@ a:hover {
 }
 
 .about-caption {
-	margin-left: 120px;
-	margin-right: 60px;
-	font-size: 13px;
+	font-family: "GothamProRegular";
+	margin-left: 102px; 
+	/*margin-left: 120px; */
+	/*margin-right: 60px;
+	font-size: 13px;*/
+	/*margin-right: 75px;*/
+	margin-right: 52px;
+	font-size: 14px;
 	color: rgb(255, 255, 255);
 	line-height: 1.643;
 }
